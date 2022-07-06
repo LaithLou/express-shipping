@@ -1,21 +1,31 @@
 {
   "name": "solution",
   "version": "1.0.0",
-  "description": "",
   "main": "shipit-server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "*",
+    "axios": "^0.27.2",
     "axios-mock-adapter": "*",
     "colors": "*",
     "cors": "*",
     "express": "^5.0.0-alpha.8",
-    "jsonschema": "*",
+    "jsonschema": "^1.4.1",
+    "pg": "^8.7.3",
     "supertest": "*"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaithLou/express-shipping.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LaithLou/express-shipping/issues"
+  },
+  "homepage": "https://github.com/LaithLou/express-shipping#readme",
+  "description": ""
 }
